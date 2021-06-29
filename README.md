@@ -1,26 +1,15 @@
 # list-sorter-mlhinit
 
-## Project setup
-```
-yarn install
-```
+<p style="font-size: 18px">
+This App is being devleoped as part of the <i>Major League Hacking</i> INIT - June 2021
+</p>
+<br/>
+<p style="font-size: 16px"> 
+A running Demo of the app can be found at https://list-sorter-mlhinit.netlify.app/
+</p>
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Project Was Created Using Yarn
 
-### Compiles and minifies for production
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+all normal yarn commands (install, run serve, etc) apply
 ```

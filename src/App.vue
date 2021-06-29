@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img id="logo" alt="Init Logo" src="./assets/MLH-Init-Logo.png">
-    <h2 style="margin-top: 15px">List Sorting App</h2>
+    <h2 style="margin-top: 15px; margin-left: 185px">List Sorting App</h2>
     <div id="list">
       <ul v-for="item in list" :key="item">
         <li> {{item}} </li>
@@ -67,7 +67,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 30px;
 }
@@ -75,6 +75,7 @@ export default {
 #logo {
   height: 200px;
   width: 200px;
+  margin-left: 200px;
 }
 
 #list {
